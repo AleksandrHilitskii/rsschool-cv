@@ -69,25 +69,27 @@ table {
          url('../fonts/lato-v23-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 .cv{
-
+  background-color: rgba(135, 135, 135, 0.287);
 }
-.header{
-  margin: 0 5px 0 5px;
-  background-color:#f2eeee;
-}
+.header{}
 .main{
-  background-color:#f2eeee;
+
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
 .avatar{
   margin-bottom: 20px;
-  position: relative; top: 20px;
+  position: relative; 
+  top: 20px;
+  left: 20px;
 }
 .neme{
   margin-bottom: 20px;
   font-size:xx-large;
+  position: relative; 
+  top: 20px;
+  left: 20px;
 }
 
 .nav{}
@@ -96,26 +98,22 @@ table {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: rgb(200, 198, 198);
  }
 
-.nav-item{
+.nav-item{}
 
-}
+
 .text_cart{
   margin: 40px 40px;
   width: 50%;
-}
+  }
 
 .section{
   margin: 10px 0 0 50px;
 }
 
 body {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
-  font-family: 'Lato';
+    font-family: 'Lato';
     font-style: normal;
     font-size: 16px;
     line-height: 1.2;
@@ -124,4 +122,8 @@ body {
 }
 .section-main{
     font-size:larger;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
 }
