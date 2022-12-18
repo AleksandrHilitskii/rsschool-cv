@@ -73,42 +73,54 @@ table {
 }
 .header{
   margin: 0 5px 0 5px;
-    background-color:#f2eeee;
+  background-color:#f2eeee;
 }
 .main{
-    background-color:#f2eeee;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+  background-color:#f2eeee;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 .avatar{
-   margin-bottom: 20px;
-    position: relative; top: 20px;
+  margin-bottom: 20px;
+  position: relative; top: 20px;
 }
 .neme{
-    margin-bottom: 20px;
-    font-size:xx-large;
+  margin-bottom: 20px;
+  font-size:xx-large;
 }
 
 .nav{}
 
 .nav-list {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(200, 198, 198);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(200, 198, 198);
  }
 
 .nav-item{
 
 }
+.text_cart{
+  margin: 40px 40px;
+  width: 50%;
+}
 
-.section{}
+.section{
+  margin: 10px 0 0 50px;
+}
 
 body {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
+  font-family: 'Lato';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight:normal;
+    color: rgb(0, 0, 0);
 }
 .section-main{
     font-size:larger;
