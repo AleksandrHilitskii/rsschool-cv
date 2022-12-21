@@ -72,8 +72,8 @@ table {
   width: 1200px;
   background-color: rgba(135, 135, 135, 0.287);
 }
-.main{
 
+.main{
   display: flex;
   align-items: flex-start;
   flex-direction: column;
